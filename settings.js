@@ -47,7 +47,7 @@ const settings = {
     "relevant_docs_count": 5, // number of relevant code function docs to select for prompting. -1 for all
 
     "max_messages": 15, // max number of messages to keep in context
-    "num_examples": 2, // number of examples to give to the model
+    "num_examples": 0, // skip dynamic example retrieval to reduce per-message API latency
     "max_commands": -1, // max number of commands that can be used in consecutive responses. -1 for no limit
     "show_command_syntax": "none", // "full", "shortened", or "none"
     "narrate_behavior": false, // chat simple automatic actions ('Picking up item!')
